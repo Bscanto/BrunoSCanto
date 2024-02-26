@@ -32,10 +32,16 @@
   color: #525252;
 }
 
+.separador img{
+  display: flex;
+  margin: auto;
+  }
+  
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
   }
+  
 }
 
 @media (max-width: 800px) {
@@ -47,11 +53,16 @@
     font-size: 2rem;
   }
   .introducao h1::before {
-    width: 30px;
+    width: 35px;
     height: 10px;
     left: 0px;
   }
+
+  .separador img {
+     display: none;
+  }
 }
+
 
 @media (max-width: 500px) {
  .introducao {
@@ -62,3 +73,5 @@
   display:  none;
  }
 }
+
+
