@@ -32,10 +32,12 @@
   color: #525252;
 }
 
-.separador img{
+.separador {
   display: flex;
-  margin: auto;
-  }
+  justify-content: center;
+  align-items: center;
+}
+
   
 @media (max-width: 1000px) {
   .introducao h1 {
@@ -57,6 +59,10 @@
     height: 10px;
     left: 0px;
   }
+
+  .introducao img {
+    width: 60%;
+   }
 
   .separador img {
      display: none;
