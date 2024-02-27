@@ -1,0 +1,138 @@
+.formacao {
+  background: #141414;
+  color: #FFFFFF;
+}
+
+.formacao-container {
+  max-width: 1200px;
+  padding: 40px 30px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  
+}
+
+.formacao .subtitulo{
+  color: #000000;
+  max-width: 5ch;
+}
+
+.formacao-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 400ch;
+  margin-bottom: 60px;
+  color: #a3a3a3;
+}
+
+.formacao-texto strong {
+  color: #ffff;
+}
+
+.faculdade-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.faculdade {
+  flex: 1;
+  background: #000000;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.faculdade-tipo {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin-bottom: 10px;
+}
+
+.faculdade-curso {
+  flex: 1;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.faculdade-curso::before {
+  content: '' ;
+  display: block;
+  width: 4px;
+  height: 40px;
+  background: linear-gradient(#1C96DA, #50BDFA);
+  position: absolute;
+  top: 20px;
+  left: -24px;
+}
+
+.faculdade-instituicao {
+  font-size: 0.875rem;
+  color: #a3a3a3;
+}
+
+.cursos {
+  margin-bottom: 60px;
+}
+
+.formacao-extra h3{
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.formacao-extra h3::before {
+  display: block;
+  content: '';
+   width: 36px;
+  height: 33px;
+  position: absolute;
+  left: -56px;
+  top: -4px;
+}
+
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formacao-extra span {
+  color: #8f8f8f;
+}
+
+.cursos h3::before{
+  background: url("../img/curso.svg")no-repeat center center;
+ 
+}
+
+
+.idiomas h3::before{
+  background: url("../img/idioma.svg")no-repeat center center;
+  width: 45px;
+  height: 42px;
+}
+
+.formacao-extra li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.formacao-extra span {
+  color: #8f8f8f;
+}
+
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+}
