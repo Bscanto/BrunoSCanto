@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
+  position: relative;
 }
 
 .experiencia .subtitulo {
@@ -80,6 +81,14 @@
   border: 4px;
   background: #ffffff;
   padding: 5px 10px;
+}
+
+.separador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -21px;
 }
 
 @media (max-width: 800px) {

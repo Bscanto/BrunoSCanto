@@ -6,6 +6,8 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   align-items: center;
+  position: relative;
+  background: #525252;
 }
 
 .introducao h1 {
@@ -36,6 +38,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  bottom: 21.5px;
 }
 
   
