@@ -15,13 +15,13 @@
 
 .formacao .subtitulo{
   color: #000000;
-  max-width: 5ch;
+  max-width: 4ch;
 }
 
 .formacao-texto {
   font-size: 1.5rem;
   line-height: 1.33;
-  max-width: 400ch;
+  max-width: 100ch;
   margin-bottom: 60px;
   color: #a3a3a3;
 }
@@ -167,5 +167,10 @@
 
   .separador img {
     display: none;
+ }
+
+ .faculdade-lista {
+  display: grid;
+  grid-template-columns: 1fr;
  }
 }
