@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.introdução img {
+  border-radius: 10px 0 ;
+}
+
 .introducao h1 {
   font-size: 4.5rem;
   line-height: 1.125;
