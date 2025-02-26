@@ -37,6 +37,20 @@
   color: #525252;
 }
 
+.introducao div {
+  display: flex;
+  flex-direction: column; /* Organiza o texto e os botões em coluna */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+}
+
+.introducao .btn-container {
+  display: flex;
+  gap: 20px; 
+  flex-direction: row;
+  flex-wrap: wrap; 
+  margin-top: 10px;
+}
+
 .separador {
   display: flex;
   justify-content: center;
@@ -44,6 +58,37 @@
   position: relative;
   bottom: 21.5px;
 }
+
+.footer-contato {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.btn-contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #0073b1; /* Azul do LinkedIn como base */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-contato:nth-child(1) { background-color: #0073b1; }
+.btn-contato:nth-child(2) { background-color: #0073b1; }
+.btn-contato:nth-child(3) { background-color: #0073b1; }
+.btn-contato:nth-child(4) { background-color: #0073b1; }
+
+.btn-contato:hover {
+  opacity: 0.8;
+}
+
 
   
 @media (max-width: 1000px) {
